@@ -1,0 +1,32 @@
+// USWDS SASS variable overrides go here, before we import USWDS itself.
+
+$font-path: '../vendor/uswds/fonts';
+$image-path: '../vendor/uswds/img';
+
+@import 'uswds';
+
+// New custom CSS rules can go here.
+
+h1, h2, h3, h4, h5, h6 {
+  padding-top: 5px; padding-bottom: 5px;
+  margin-top: 5px; margin-bottom: 5px;
+}
+
+.main-content {
+  padding: 3rem;
+}
+
+pre.json {
+  height: 300px;
+  border: 1px solid #ddd;
+
+  code {
+    font-size: 1.2rem;
+  }
+}
+
+#error {
+  display: none;
+  color: #d33;
+  font-weight: bold;
+}
